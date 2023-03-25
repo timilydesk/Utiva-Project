@@ -172,6 +172,17 @@ ORDER BY
 
 	
 --Q4- The country with the highest and lowest games_played?
+
+/* DAMILARE'S COMMENT:
+	    Hey cash madam,
+	    What you have done wuld show each team and their corresponing total games played
+	    ayou then tried to use the MAX fctn to get the team with the highest game played 
+	    but this would only return the highest game played per team.
+	    
+	    we would be correcting this in class.
+	    
+	    Great technique trying to sort by games played in DESC order
+*/
 WITH
 	all_world_cup AS (
     SELECT
